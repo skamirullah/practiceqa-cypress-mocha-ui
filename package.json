@@ -1,0 +1,25 @@
+{
+  "name": "practiceqa-cypress-mocha-ui",
+  "version": "1.0.0",
+  "description": "UI automation framework with Cypress and Mocha against FoodDash, the food delivery app on PracticeQAAutomation",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "cypress run",
+    "test:smoke": "cypress run --expose grepTags=@smoke,grepFilterSpecs=true,grepOmitFiltered=true",
+    "test:chrome": "cypress run --browser chrome",
+    "test:mobile": "cypress run --config viewportWidth=390,viewportHeight=844",
+    "open": "cypress open",
+    "lint": "eslint ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@cypress/grep": "^7.0.0",
+    "@eslint/js": "^9.12.0",
+    "cypress": "^16.1.1",
+    "cypress-mochawesome-reporter": "^5.0.0",
+    "eslint": "^9.12.0",
+    "eslint-plugin-cypress": "^4.1.0",
+    "globals": "^15.11.0"
+  }
+}

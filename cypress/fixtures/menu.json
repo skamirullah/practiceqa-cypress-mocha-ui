@@ -1,0 +1,13 @@
+{
+  "pizzeria": {
+    "id": "r3",
+    "name": "Slice of Napoli",
+    "cuisine": "pizza",
+    "margherita": { "id": "r3i1", "price": 299 },
+    "pepperoni": { "id": "r3i2", "price": 449 },
+    "garlicBread": { "id": "r3i4", "price": 149 },
+    "sizes": { "medium": 150, "large": 300 },
+    "toppings": { "olives": 40, "paneer": 60 }
+  },
+  "customer": { "phone": "9876543210" }
+}
